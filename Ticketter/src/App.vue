@@ -1,17 +1,21 @@
 <script setup>
-import TheWelcome from "./components/TheWelcome.vue";
+import PrintInput from "./components/PrintInput.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/img/logo.svg" width="125" height="125" />
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="./assets/img/logo.svg"
+      width="125"
+      height="125"
+    />
   </header>
 
   <main>
-    <TheWelcome />
+    <PrintInput />
   </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
